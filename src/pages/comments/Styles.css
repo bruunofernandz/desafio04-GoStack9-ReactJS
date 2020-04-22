@@ -1,0 +1,17 @@
+.user-comment {
+  display: flex;
+  margin-top: 50px;
+}
+
+.user-comment .comment {
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 6px;
+  margin: 0 10px;
+}
+
+.comment-text:not(strong) {
+  color: #3e3e3e;
+  font-size: 13px;
+}
